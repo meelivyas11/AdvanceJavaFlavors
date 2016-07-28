@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 5 resources" deleteContents="false" description="Delete 5 resources" element1="/JUnit_With_Maven" element2="/Maven-Plugin" element3="/Maven-Web" element4="/Servers" element5="/Spring-Maven-MVC" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="5" stamp="1462885326796"/>&#x0A;<refactoring comment="Rename resource &apos;Spring-Maven-MVC&apos; to &apos;Spring-Maven-WebAPI&apos;" description="Rename resource &apos;Spring-Maven-MVC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Spring-Maven-MVC" name="Spring-Maven-WebAPI" stamp="1463144027836" updateReferences="true"/>
+</session>

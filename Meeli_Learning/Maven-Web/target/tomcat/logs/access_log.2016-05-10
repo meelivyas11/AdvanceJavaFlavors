@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [10/May/2016:11:22:29 -0400] "GET /Maven-Web HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [10/May/2016:11:22:30 -0400] "GET /Maven-Web/ HTTP/1.1" 200 712 http-bio-8080-exec-2 626
+0:0:0:0:0:0:0:1 - - [10/May/2016:11:22:48 -0400] "POST /Maven-Web/AccountController HTTP/1.1" 200 391 http-bio-8080-exec-3 121
+0:0:0:0:0:0:0:1 - - [10/May/2016:12:51:58 -0400] "GET /Spring-Maven-MVC/MyController/GetMyDetails HTTP/1.1" 404 - http-bio-8080-exec-6 0

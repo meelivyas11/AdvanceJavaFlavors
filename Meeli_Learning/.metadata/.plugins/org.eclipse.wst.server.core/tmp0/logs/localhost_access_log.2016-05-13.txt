@@ -1,0 +1,12 @@
+127.0.0.1 - - [13/May/2016:09:53:00 -0400] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:53:01 -0400] "GET /Spring-Maven-WebAPI/WEB-INF/Views/MyAngularView.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:53:10 -0400] "GET /Spring-Maven-WebAPI/WEB-INF/Views/MyAngularView.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:53:29 -0400] "GET /Spring-Maven-WebAPI/WEB-INF/Views/MyAngularView.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:53:32 -0400] "GET /Spring-Maven-WebAPI/WEB-INF/Views/MyAngularView.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:53:32 -0400] "GET /Spring-Maven-WebAPI/WEB-INF/Views/MyAngularView.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:53:42 -0400] "GET /Spring-Maven-WebAPI/ HTTP/1.1" 200 104
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:53:45 -0400] "GET /Spring-Maven-WebAPI/MyController/GetMyName HTTP/1.1" 200 291
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:54:23 -0400] "GET /Spring-Maven-WebAPI/ShowMyName HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:54:39 -0400] "GET /Spring-Maven-WebAPI/Views/ShowMyName HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:54:47 -0400] "GET /Spring-Maven-WebAPI/Views/ShowMyName.jsp HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [13/May/2016:09:55:05 -0400] "GET /Spring-Maven-WebAPI/WEB-INF/Views/showMyName.jsp HTTP/1.1" 404 992
