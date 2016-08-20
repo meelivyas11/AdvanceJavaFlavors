@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Spring-Maven-WebAPI/src/main/webapp/WEB-INF/Views/SendMyName.jsp&apos; to &apos;GetModelVal.jsp&apos;" description="Rename resource &apos;SendMyName.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/Views/SendMyName.jsp" name="GetModelVal.jsp" stamp="1464204333905" updateReferences="true"/>
-</session>

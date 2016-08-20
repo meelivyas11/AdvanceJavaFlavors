@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Wed Jun 08 12:59:51 EDT 2016
-org.eclipse.jst.j2ee.server\:Maven-Plugin=WEB-INF/lib/Maven-Plugin-0.0.1-SNAPSHOT.jar
-org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\mvyas\\.m2\\repository\\org\\springframework\\spring-web\\4.0.3.RELEASE\\spring-web-4.0.3.RELEASE.jar=WEB-INF/lib/spring-web-4.0.3.RELEASE.jar
