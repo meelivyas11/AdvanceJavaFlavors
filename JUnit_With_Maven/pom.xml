@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>JUnit_With_Maven</groupId>
+	<artifactId>JUnit_With_Maven</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>JUnit_With_Maven Maven Plugin</name>
+
+	<!-- FIXME change it to the project's website -->
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<junit-maven-version>4.8.2</junit-maven-version>
+		<mokito-maven-version>1.9.5</mokito-maven-version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit-maven-version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>${mokito-maven-version}</version>
+		</dependency>
+
+
+	</dependencies>
+
+</project>
