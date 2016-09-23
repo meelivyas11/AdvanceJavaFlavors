@@ -19,6 +19,7 @@ import com.collaborative.service.AccountService;
 public class AccountController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
