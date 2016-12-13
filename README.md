@@ -1,9 +1,11 @@
 # What is it?
-This Repository consist of simple code sample in Maven, Spring, Hibernate, AngularJS, JUnit Frameworks. Detailed steps to create these projects from scratch can be found from [here] (https://meelivyas.blogspot.com/2016/06/advance-java-learnings.html)
+This Repository consist of simple code sample in Maven, Spring, Hibernate, AngularJS, JUnit Frameworks. 
 
 - 'Maven-Plugin' and 'Maven-Web' together build a simple **Maven** project which takes user's first name, last name, email address and phone number and displays the same on click of a button
 - 'Spring-Maven-WebAPI' project shows simple implementation of **Spring.** It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
 - 'Maven-Oracle-Hibernate' code shows how to query oracle database using **JDBC** and **Hibernate** with Maven
+
+<b> Detailed steps to create these projects from scratch can be found from [here] (https://meelivyas.blogspot.com/2016/06/advance-java-learnings.html) </b>
 
 # How to Set up?
 ## Software Requirements 
