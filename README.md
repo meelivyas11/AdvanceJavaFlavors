@@ -3,6 +3,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 
 - 'Maven-Plugin' and 'Maven-Web' together build a simple **Maven** project which takes user's first name, last name, email address and phone number and displays the same on click of a button
 - 'Spring-Maven-WebAPI' project shows simple implementation of **Spring.** It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
+- 'Maven-Oracle-Hibernate' code shows how to query oracle database using **JDBC** and **Hibernate** with Maven
 
 # Software Requirements 
  - Git Bash: <https://git-scm.com/>
@@ -29,7 +30,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Open <http://localhost:8080/Maven-Web/> from your web browser
  - Enter the First name, Last name, email address and phone numer and click Submit.
 
-# Spring
+# Spring with Maven
 ## Environment Setup
  - Clone the repository using `git clone https://github.com/meelivyas11/AdvanceJavaFlavors.git` from Git Bash
  - Open the repository 'AdvanceJavaFlavors' from eclipse IDE
@@ -51,7 +52,15 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Open <http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyDetails> to see the JSON results retrived from WebAPI
 
   
-# Hibernate 
+# Hibernate with Maven
+## Environment Setup
+ - Clone the repository using `git clone https://github.com/meelivyas11/AdvanceJavaFlavors.git` from Git Bash
+ - Open the repository 'AdvanceJavaFlavors' from eclipse IDE
+ - Import 'Maven-Oracle-Hibernate' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
+ - Create a DB connection with username and password `DBUSER` using `DBUSER_ORCL_CREATION.sql` script inside 'AdvanceJavaFlavors' repository
+  
+## Results
+ - Run `App.Java` to see the records inserted in DB
 
 # AngularJS 
 
