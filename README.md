@@ -4,7 +4,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 - 'Maven-Plugin' and 'Maven-Web' together build a simple **Maven** project which takes user's first name, last name, email address and phone number and displays the same on click of a button
 - 'Spring-Maven-WebAPI' project shows simple implementation of **Spring.** It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
 - 'Maven-Oracle-Hibernate' code shows how to query oracle database using **JDBC** and **Hibernate** with Maven
-- 'AngularJS-Maven' code 
+- 'AngularJS-Maven' code helps in including **Bootstrap** and **AngularJS** JARS in the Maven project and run a sample code for AngularJS
 
 <b> Detailed steps to create these projects from scratch can be found from [here] (https://meelivyas.blogspot.com/2016/06/advance-java-learnings.html) </b>
 
@@ -41,7 +41,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 - Import 'AngularJS-Maven' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
 - Creating a new Apache Tomcat v8.0 server
 - Clean, build and the maven project by following the steps below (Do not Run it)
-- Start the Tomcat Server and navigate to <http://localhost:8080/AngularJS-Maven/>
+- Start the Tomcat Server
 
 ### JUnit 
 
@@ -70,3 +70,5 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Records inserted in DBUSER's LOGIN table
 
 ## AngularJS 
+ - Open <http://localhost:8080/AngularJS-Maven/> to see the results.
+ - See the `View Source` of this page to checkout which versions of bootstrap and angularJS are included without mentioning it directly in index.jsp file.
