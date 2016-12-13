@@ -2,9 +2,9 @@
 
 # How do I set up?
 ## Software Requirements
- - Git Bash: https://git-scm.com/
+ - Git Bash: <https://git-scm.com/>
  - Eclipse Java EE IDE for Web Developers
- - Apache Tomcat: http://apache.spinellicreations.com/tomcat/tomcat-8/v8.0.39/bin/apache-tomcat-8.0.39.zip
+ - Apache Tomcat: <http://apache.spinellicreations.com/tomcat/tomcat-8/v8.0.39/bin/apache-tomcat-8.0.39.zip>
  
 ## Environment Setup
 ### Maven
@@ -36,13 +36,13 @@
 
 # How do I use it?
 ### Maven
- - Open `http://localhost:8080/Maven-Web/` from your web browser
+ - Open <http://localhost:8080/Maven-Web/> from your web browser
  - Enter the First name, Last name, email address and phone numer and click Submit.
  
 ### Spring & Maven
- - Open http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyName results of simple spring application
- - Open http://localhost:8080/Spring-Maven-WebAPI/MyController/SendMyName to see data returned by the controller to jsp in spring
- - Open http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyDetails to see the JSON results returned by a webAPI
+ - Open <http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyName> results of simple spring application
+ - Open <http://localhost:8080/Spring-Maven-WebAPI/MyController/SendMyName> to see data returned by the controller to jsp in spring
+ - Open <http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyDetails> to see the JSON results returned by a webAPI
 
 ### Hibernate & Maven
 
