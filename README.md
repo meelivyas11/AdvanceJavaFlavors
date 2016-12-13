@@ -1,5 +1,5 @@
 # What is it?
-This Repository consist of simple code sample in Maven, Spring, Hibernate, AngularJS, JUnit Frameworks
+This Repository consist of simple code sample in Maven, Spring, Hibernate, AngularJS, JUnit Frameworks. Detailed steps to create these projects from scratch can be found from [here] (https://meelivyas.blogspot.com/2016/06/advance-java-learnings.html)
 
 # Software Requirements 
  - Git Bash: <https://git-scm.com/>
