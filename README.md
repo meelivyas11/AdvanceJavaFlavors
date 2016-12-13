@@ -58,6 +58,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Open the repository 'AdvanceJavaFlavors' from eclipse IDE
  - Import 'Maven-Oracle-Hibernate' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
  - Create a DB connection with username and password `DBUSER` using `DBUSER_ORCL_CREATION.sql` script inside 'AdvanceJavaFlavors' repository
+ - Make sure the db PORT Number, Username, Password are correct in hibernate.cfg.xml (\Maven-Oracle-Hibernate\src\main\resources\Hibernate) for the Hibernate configuration and DBUtilts.java (Maven-Oracle-Hibernate\src\main\java\com\collaborative\dataProvider) for JDBC configuration.
   
 ## Results
  - Run `App.Java` to see the records inserted in DB
