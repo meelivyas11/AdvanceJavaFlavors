@@ -12,7 +12,6 @@
  - Open the repository 'AdvanceJavaFlavors' from eclipse IDE
  - Import 'Maven-Plugin' and 'Maven-Web' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
  - Resolve the build path erros by re-adding the jars (serlet-api.jar) present in Jars folder of the repository
- - Create a new `Apache Tomcat v8.0` server
  - Build the maven project and start the Server (See Below Steps)
   
 ### Spring & Maven
@@ -41,6 +40,9 @@
  - Enter the First name, Last name, email address and phone numer and click Submit.
  
 ### Spring & Maven
+ - Open http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyName results of simple spring application
+ - Open http://localhost:8080/Spring-Maven-WebAPI/MyController/SendMyName to see data returned by the controller to jsp in spring
+ - Open http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyDetails to see the JSON results returned by a webAPI
 
 ### Hibernate & Maven
 
