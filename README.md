@@ -1,14 +1,15 @@
 # What is it?
 This Repository consist of simple code sample in Maven, Spring, Hibernate, AngularJS, JUnit Frameworks. Detailed steps to create these projects from scratch can be found from [here] (https://meelivyas.blogspot.com/2016/06/advance-java-learnings.html)
 
+- 'Maven-Plugin' and 'Maven-Web' together build a simple **Maven** project which takes user's first name, last name, email address and phone number and displays the same on click of a button
+- 'Spring-Maven-WebAPI' project shows simple implementation of **Spring.** It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
+
 # Software Requirements 
  - Git Bash: <https://git-scm.com/>
  - Eclipse Java EE IDE for Web Developers
  - Apache Tomcat: <http://apache.spinellicreations.com/tomcat/tomcat-8/v8.0.39/bin/apache-tomcat-8.0.39.zip>
 
 # Maven
-'Maven-Plugin' and 'Maven-Web' together build a simple <b>Maven</b> project which takes user's first name, last name, email address and phone number and displays the same on click of a button
-
 ## Environment Setup
  - Clone the repository using `git clone https://github.com/meelivyas11/AdvanceJavaFlavors.git` from Git Bash
  - Open the repository 'AdvanceJavaFlavors' from eclipse IDE
@@ -29,8 +30,6 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Enter the First name, Last name, email address and phone numer and click Submit.
 
 # Spring
-'Spring-Maven-WebAPI' project shows simple implementation of <b>Spring.</b> It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
-
 ## Environment Setup
  - Clone the repository using `git clone https://github.com/meelivyas11/AdvanceJavaFlavors.git` from Git Bash
  - Open the repository 'AdvanceJavaFlavors' from eclipse IDE
