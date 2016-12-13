@@ -11,11 +11,11 @@ public class DBUtils {
 	public static final String ORA_DB_DRIVER =  "oracle.jdbc.OracleDriver";
 
 	// Connection URL - jdbc:oracle:thin:@//<HOST_NAME>:<PORT_NUMBER>/<SID>
-	protected static final String DB_CONNECTION_URL = "jdbc:oracle:thin:@//localhost:1521/xe";
+	protected static final String DB_CONNECTION_URL = "jdbc:oracle:thin:@//localhost:32769/xe";
 	
 	// Specify the User Name and Password of the selected Connection
-	protected static final String DB_USERNAME = "dbuser";
-	protected static final String DB_PASSWORD = "dbuser";
+	protected static final String DB_USERNAME = "DBUSER";
+	protected static final String DB_PASSWORD = "DBUSER";
 
 	// Query for Account
 	public static final String INSERT_RECORD = "INSERT INTO LOGIN (USERID, USERNAME, PASSWORD, ROLE) VALUES (2, 'q', 'q', 'User')";
