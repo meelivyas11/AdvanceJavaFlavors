@@ -37,13 +37,16 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Clean and buil maven project by following the steps below (Do not Run it)
  - Run `App.Java`as a Java Application to see the data inserted in the Login table
 
-### AngularJS 
+### AngularJS with Maven
 - Import 'AngularJS-Maven' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
 - Creating a new Apache Tomcat v8.0 server
 - Clean, build and the maven project by following the steps below (Do not Run it)
 - Start the Tomcat Server
 
-### JUnit 
+### JUnit with Maven
+- Import 'JUnit_With_Maven' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
+- Clean, build and the maven project by following the steps below (Do not Run it)
+- Navigate to `testAccountService.java` located under '/JUnit_With_Maven/src/test/java/com/collaborative/junit/' folder of the repository and run as a JUnit Test. 
 
 # How to Clean, Build and Run Maven Project?
 - Clean and Build the Maven Project 
@@ -55,6 +58,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
      3. Click ok
      4. Right click project -> Run As -> Maven install
  - Create a maven build using `tomcat:run -X` goal and Run it
+   ![Maven Build Configuration](https://cloud.githubusercontent.com/assets/7827378/21186067/3c9ea5da-c1e1-11e6-9e07-a5707718fe17.png)
  
 # How Do I use it?
 ## Maven
@@ -72,3 +76,6 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 ## AngularJS 
  - Open <http://localhost:8080/AngularJS-Maven/> to see the results.
  - See the `View Source` of this page to checkout which versions of bootstrap and angularJS are included without mentioning it directly in index.jsp file.
+ 
+## JUnit with Maven
+ - The test will get executed and you will see the results in `JUnit` view of eclipse
