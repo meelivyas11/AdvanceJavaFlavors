@@ -21,6 +21,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 ## Environment Setup
  - Clone the repository using `git clone https://github.com/meelivyas11/AdvanceJavaFlavors.git` from Git Bash
  - Open the repository 'AdvanceJavaFlavors' from eclipse IDE
+ 
 ### Maven
  - Import 'Maven-Plugin' and 'Maven-Web' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
  - Resolve the build path erros by re-adding the jars (serlet-api.jar) present in Jars folder of the repository
