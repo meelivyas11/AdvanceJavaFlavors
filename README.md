@@ -5,6 +5,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 - 'Spring-Maven-WebAPI' project shows simple implementation of **Spring.** It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
 - 'Maven-Oracle-Hibernate' code shows how to query oracle database using **JDBC** and **Hibernate** with Maven
 - 'AngularJS-Maven' code helps in including **Bootstrap** and **AngularJS** JARS in the Maven project and run a sample code for AngularJS
+- 'JUnit_With_Maven' creates a basic project structure to write JUnit test and writes a smaple JUnit Test
 
 <b> Detailed steps to create these projects from scratch can be found from [here] (https://meelivyas.blogspot.com/2016/06/advance-java-learnings.html) </b>
 
@@ -57,7 +58,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
      2. Check “Force update of Snapshots/Releases” checkbox
      3. Click ok
      4. Right click project -> Run As -> Maven install
- - Create a maven build using `tomcat:run -X` goal and Run it
+ - Create a maven build using `tomcat:run -X` goal and Run it. Update configuration name and base directory path specific to the project
    ![Maven Build Configuration](https://cloud.githubusercontent.com/assets/7827378/21186067/3c9ea5da-c1e1-11e6-9e07-a5707718fe17.png)
  
 # How Do I use it?
