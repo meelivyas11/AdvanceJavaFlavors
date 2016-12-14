@@ -5,6 +5,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 - 'Spring-Maven-WebAPI' project shows simple implementation of **Spring.** It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
 - 'Maven-Oracle-Hibernate' code shows how to query oracle database using **JDBC** and **Hibernate** with Maven
 - 'AngularJS-Maven' code helps in including **Bootstrap** and **AngularJS** JARS in the Maven project and run a sample code for AngularJS
+- 'JUnit_With_Maven' creates a basic project structure to write JUnit test and writes a smaple JUnit Test
 
 <b> Detailed steps to create these projects from scratch can be found from [here] (https://meelivyas.blogspot.com/2016/06/advance-java-learnings.html) </b>
 
@@ -37,13 +38,16 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Clean and buil maven project by following the steps below (Do not Run it)
  - Run `App.Java`as a Java Application to see the data inserted in the Login table
 
-### AngularJS 
+### AngularJS with Maven
 - Import 'AngularJS-Maven' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
 - Creating a new Apache Tomcat v8.0 server
 - Clean, build and the maven project by following the steps below (Do not Run it)
 - Start the Tomcat Server
 
-### JUnit 
+### JUnit with Maven
+- Import 'JUnit_With_Maven' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
+- Clean, build and the maven project by following the steps below (Do not Run it)
+- Navigate to `testAccountService.java` located under '/JUnit_With_Maven/src/test/java/com/collaborative/junit/' folder of the repository and run as a JUnit Test. 
 
 # How to Clean, Build and Run Maven Project?
 - Clean and Build the Maven Project 
@@ -54,7 +58,8 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
      2. Check “Force update of Snapshots/Releases” checkbox
      3. Click ok
      4. Right click project -> Run As -> Maven install
- - Create a maven build using `tomcat:run -X` goal and Run it
+ - Create a maven build using `tomcat:run -X` goal and Run it. Update configuration name and base directory path specific to the project
+   ![Maven Build Configuration](https://cloud.githubusercontent.com/assets/7827378/21186067/3c9ea5da-c1e1-11e6-9e07-a5707718fe17.png)
  
 # How Do I use it?
 ## Maven
@@ -72,3 +77,6 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 ## AngularJS 
  - Open <http://localhost:8080/AngularJS-Maven/> to see the results.
  - See the `View Source` of this page to checkout which versions of bootstrap and angularJS are included without mentioning it directly in index.jsp file.
+ 
+## JUnit with Maven
+ - The test will get executed and you will see the results in `JUnit` view of eclipse
