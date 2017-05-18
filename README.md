@@ -2,7 +2,7 @@
 This Repository consist of simple code sample in Maven, Spring, Hibernate, AngularJS, JUnit Frameworks. 
 
 - 'Maven-Plugin' and 'Maven-Web' together build a simple **Maven** project which takes user's first name, last name, email address and phone number and displays the same on click of a button
-- 'Spring-Maven-WebAPI' project shows simple implementation of **Spring.** It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
+- 'Spring-Maven' project shows simple implementation of **Spring.** It contains code to transfer data from controller to JSP using spring framework. This project also contains code to create a simple RESTful WEB API which return JSON results.
 - 'Maven-Oracle-Hibernate' code shows how to query oracle database using **JDBC** and **Hibernate** with Maven
 - 'AngularJS-Maven' code helps in including **Bootstrap** and **AngularJS** JARS in the Maven project and run a sample code for AngularJS
 - 'JUnit_With_Maven' creates a basic project structure to write JUnit test and writes a smaple JUnit Test
@@ -28,7 +28,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Clean, build and run the maven project by following the steps below
 
 ### Spring with Maven
- - Import 'Spring-Maven-WebAPI' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
+ - Import 'Spring-Maven' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
  - Resolve the build path erros by re-adding the jars (serlet-api.jar) present in Jars folder of the repository
  - Clean, build and run the maven project by following the steps below
   
@@ -36,6 +36,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Import 'Maven-Oracle-Hibernate' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
  - Create a DB connection with username and password `DBUSER` using `DBUSER_ORCL_CREATION.sql` script inside 'AdvanceJavaFlavors' repository
  - Make sure the db **port number, username, password** are correct in `hibernate.cfg.xml` (\Maven-Oracle-Hibernate\src\main\resources\Hibernate) for the Hibernate configuration and `DBUtilts.java` (Maven-Oracle-Hibernate\src\main\java\com\collaborative\dataProvider) for JDBC configuration.
+ - Manually add "ojdbc6.jar"  to maven repository (See [this](http://meelivyas.blogspot.com/p/part1-connect-maven-application-with_12.html) to do so!!)
  - Clean and buil maven project by following the steps below (Do not Run it)
  - Run `App.Java`as a Java Application to see the data inserted in the Login table
 
@@ -68,9 +69,9 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  - Enter the First name, Last name, email address and phone numer and click Submit.
  
 ## Hibernate with Maven
- - Open <http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyName> to see the results of simple spring application
- - Open <http://localhost:8080/Spring-Maven-WebAPI/MyController/SendMyName> to see how data can be transferred from controller to jsp using spring
- - Open <http://localhost:8080/Spring-Maven-WebAPI/MyController/GetMyDetails> to see the JSON results retrived from WebAPI
+ - Open <http://localhost:8080/Spring-Maven/MyController/GetMyName> to see the results of simple spring application
+ - Open <http://localhost:8080/Spring-Maven/MyController/SendMyName> to see how data can be transferred from controller to jsp using spring
+ - Open <http://localhost:8080/Spring-Maven/MyController/GetMyDetails> to see the JSON results retrived from WebAPI
  
 ## Hibernate with Maven
  - Records inserted in DBUSER's LOGIN table
