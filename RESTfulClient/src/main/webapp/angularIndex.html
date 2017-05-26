@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app = "anglrApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Angular Restful Client</title>
+<script src="scripts/angular.js"></script>
+<script src="app/controller.js"></script>
+<script src="app/repository.js"></script>
+
+</head>
+<body  ng-controller="anglrCtrl">
+	<form ng-submit="AddUser()">
+	     UserName: <input type="text" name="username" ng-model="username"><br>
+	     Password:<input type="text"name="password" ng-model="password"><br>
+	     <input type="submit" value="Add User">
+	</form>
+	<br><br>
+	
+	<form ng-submit="GetUsers()">
+   		 <input type="submit" value="Get All Users">
+	</form>
+	<br><br>
+	
+	<table border="0">
+     <tr>
+       <th>UserName</th>
+       <th>Password</th>
+     <tr>
+     <tr ng-repeat="item in Users">
+       <td>{{item.userName}}</td>
+       <td>{{item.password}}</td>
+     </tr>
+</table>
+	
+</body>
+</html>
+

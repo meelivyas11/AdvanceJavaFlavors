@@ -1,0 +1,56 @@
+{
+	"id": "0dfb19e0-9658-a33f-5e4a-80a02ac7aa50",
+	"name": "RESTFul",
+	"description": "",
+	"order": [
+		"454847e3-c3ef-ac97-d451-fe52168db0f0",
+		"daca565a-56cd-f6f1-9087-f103c9f55872"
+	],
+	"folders": [],
+	"timestamp": 1495201624741,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "454847e3-c3ef-ac97-d451-fe52168db0f0",
+			"headers": "",
+			"url": "http://localhost:8080/RESTful/webapi/users",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "0dfb19e0-9658-a33f-5e4a-80a02ac7aa50",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/RESTful/webapi/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1495201624740,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "daca565a-56cd-f6f1-9087-f103c9f55872",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:8080/RESTful/webapi/users",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "0dfb19e0-9658-a33f-5e4a-80a02ac7aa50",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/RESTful/webapi/users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1495201652823,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"password\": \"meeli\",\n    \"userName\": \"meeli\"\n }"
+		}
+	]
+}
