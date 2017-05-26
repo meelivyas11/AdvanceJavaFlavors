@@ -6,6 +6,8 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 - 'Maven-Oracle-Hibernate' code shows how to query oracle database using **JDBC** and **Hibernate** with Maven
 - 'AngularJS-Maven' code helps in including **Bootstrap** and **AngularJS** JARS in the Maven project and run a sample code for AngularJS
 - 'JUnit_With_Maven' creates a basic project structure to write JUnit test and writes a smaple JUnit Test
+- 'RESTful' create a simple web service to add and get users
+- 'RESTfulClient' contains code to call REST web APIs from a Servlet/Service class and using AngularJS
 
 <b> Detailed steps to create these projects from scratch can be found from [here] (https://meelivyas.blogspot.com/2016/06/advance-java-learnings.html) </b>
 
@@ -42,7 +44,7 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 
 ### AngularJS with Maven
 - Import 'AngularJS-Maven' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
-- Creating a new Apache Tomcat v8.0 server
+- Create a new Apache Tomcat v8.0 server
 - Clean, build and the maven project by following the steps below (Do not Run it)
 - Start the Tomcat Server
 
@@ -50,6 +52,11 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
 - Import 'JUnit_With_Maven' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
 - Clean, build and the maven project by following the steps below (Do not Run it)
 - Navigate to `testAccountService.java` located under '/JUnit_With_Maven/src/test/java/com/collaborative/junit/' folder of the repository and run as a JUnit Test. 
+
+### RESTful and RESTfulClient
+- Import 'RESTful' and 'RESTfulClient' Project (`File->Import->General->Existing Project into Workspace`) from eclipse IDE
+- Create a new Apache Tomcat v8.0 server and add to the Java Build Path of the Projects 
+- Clean, build and the maven project by following the steps below (Do not Run it)
 
 # How to Clean, Build and Run Maven Project?
 - Clean and Build the Maven Project 
@@ -82,3 +89,11 @@ This Repository consist of simple code sample in Maven, Spring, Hibernate, Angul
  
 ## JUnit with Maven
  - The test will get executed and you will see the results in `JUnit` view of eclipse
+ 
+## RESTful
+- Use Postman to import 'RESTFul.postman_collection.json' collection present in the project folder 
+- Call POST/GET webapi's to add/see the users
+
+## RESTfulClient
+- Navigate to <http://localhost:8080/RESTfulClient/> to call the RESTful webservices from Java class 
+- Navigate to <http://localhost:8080/RESTfulClient/angularIndex.html> to call the RESTful webservices from AngularJS
